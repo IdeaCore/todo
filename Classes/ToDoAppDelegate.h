@@ -7,15 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <sqlite3.h>
+
+@class Todo;
 
 @interface ToDoAppDelegate : NSObject <UIApplicationDelegate> {
     
     UIWindow *window;
     UINavigationController *navigationController;
+	
+	sqlite3 *database;
+	NSMutableArray *todos;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 @property (nonatomic, retain) IBOutlet UINavigationController *navigationController;
+@property (nonatomic, retain) NSMutableArray *todos;
 
 @end
 

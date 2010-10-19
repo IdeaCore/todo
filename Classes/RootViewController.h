@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class ToDoAppDelegate;
+@class Todo;
+@class TodoCell;
+
 @interface RootViewController : UITableViewController {
 }
 

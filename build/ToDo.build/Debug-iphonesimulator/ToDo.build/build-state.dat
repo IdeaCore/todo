@@ -1,0 +1,434 @@
+TToDo
+v7
+r0
+t309221983.620371
+cCheck dependencies
+cProcessInfoPlistFile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/Info.plist ToDo-Info.plist
+cCompileXIB /Users/brianstewart/Projects/ToDo/MainWindow.xib
+cCompileXIB /Users/brianstewart/Projects/ToDo/RootViewController.xib
+cCpResource build/Debug-iphonesimulator/ToDo.app/icon.jpg icon.jpg
+cCpResource build/Debug-iphonesimulator/ToDo.app/todo.sqlite todo.sqlite
+cCpResource build/Debug-iphonesimulator/ToDo.app/yellow.png yellow.png
+cCpResource build/Debug-iphonesimulator/ToDo.app/green.png green.png
+cCpResource build/Debug-iphonesimulator/ToDo.app/red.png red.png
+cProcessPCH /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch.gch ToDo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/main.o /Users/brianstewart/Projects/ToDo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDoAppDelegate.o /Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/RootViewController.o /Users/brianstewart/Projects/ToDo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/Todo.o /Users/brianstewart/Projects/ToDo/Classes/Todo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/TodoCell.o /Users/brianstewart/Projects/ToDo/Classes/TodoCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo normal i386
+cGenerateDSYMFile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app.dSYM /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo
+cTouch /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/sqlite3.h
+c000000004C5A494E000000000004252F
+t1280985422
+s271663
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/lib/libsqlite3.0.dylib
+c000000004C5A495F00000000000836C0
+t1280985439
+s538304
+
+N/Users/brianstewart/Projects/ToDo/Classes/RootViewController.h
+c000000004CBE1E900000000000000121
+t1287528080
+s289
+i<UIKit/UIKit.h>
+
+N/Users/brianstewart/Projects/ToDo/Classes/RootViewController.m
+c000000004CBE230D0000000000001756
+t1287529229
+s5974
+i"RootViewController.h"
+i"ToDoAppDelegate.h"
+i"Todo.h"
+i"TodoCell.h"
+
+N/Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.h
+c000000004CBE03AE0000000000000251
+t1287521198
+s593
+i<UIKit/UIKit.h>
+i<sqlite3.h>
+
+N/Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m
+c000000004CBE0BFB000000000000182F
+t1287523323
+s6191
+i"ToDoAppDelegate.h"
+i"RootViewController.h"
+i"Todo.h"
+
+N/Users/brianstewart/Projects/ToDo/Classes/Todo.h
+c000000004CBE1E0B000000000000020E
+t1287527947
+s526
+i<Foundation/Foundation.h>
+i<sqlite3.h>
+
+N/Users/brianstewart/Projects/ToDo/Classes/Todo.m
+c000000004CBE21D8000000000000055E
+t1287528920
+s1374
+i"Todo.h"
+
+N/Users/brianstewart/Projects/ToDo/Classes/TodoCell.h
+c000000004CBE0ED5000000000000025D
+t1287524053
+s605
+i<UIKit/UIKit.h>
+
+N/Users/brianstewart/Projects/ToDo/Classes/TodoCell.m
+c000000004CBE1E3F000000000000140C
+t1287527999
+s5132
+i"TodoCell.h"
+i"Todo.h"
+
+N/Users/brianstewart/Projects/ToDo/MainWindow.xib
+c000000004CBCDE240000000000005FE8
+t1287446052
+s24552
+
+N/Users/brianstewart/Projects/ToDo/RootViewController.xib
+c000000004CBCDE24000000000000444F
+t1287446052
+s17487
+
+N/Users/brianstewart/Projects/ToDo/ToDo_Prefix.pch
+c000000004CBCDE24000000000000013A
+t1287446052
+s314
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app
+t1287529183
+s408
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app.dSYM
+t1287529183
+s102
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/Info.plist
+t1287519124
+s613
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/MainWindow.nib
+t1287519127
+s2453
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/PkgInfo
+t1287519124
+s8
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/RootViewController.nib
+t1287519127
+s1518
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo
+t1287529183
+s32628
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/green.png
+t1287524464
+s827
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/icon.jpg
+t1287519127
+s6571
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/red.png
+t1287524464
+s760
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/todo.sqlite
+t1287519583
+s2048
+
+N/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/yellow.png
+t1287524464
+s903
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/RootViewController.o
+t1287529183
+s46344
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDo.LinkFileList
+c000000004CBE10700000000000000248
+t1287524464
+s584
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDoAppDelegate.o
+t1287528099
+s57840
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/Todo.o
+t1287528927
+s12188
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/TodoCell.o
+t1287528001
+s50900
+
+N/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/main.o
+t1287519129
+s6292
+
+N/Users/brianstewart/Projects/ToDo/green.png
+c000000004CBE0CA3000000000000033B
+t1287523491
+s827
+
+N/Users/brianstewart/Projects/ToDo/icon.jpg
+c000000004CBDFB4B00000000000019AB
+t1287519051
+s6571
+
+N/Users/brianstewart/Projects/ToDo/main.m
+c000000004CBCDE240000000000000168
+t1287446052
+s360
+i<UIKit/UIKit.h>
+
+N/Users/brianstewart/Projects/ToDo/red.png
+c000000004CBE0C9A00000000000002F8
+t1287523482
+s760
+
+N/Users/brianstewart/Projects/ToDo/todo.sqlite
+c000000004CBDFCEF0000000000000800
+t1287519471
+s2048
+
+N/Users/brianstewart/Projects/ToDo/yellow.png
+c000000004CBE0CA70000000000000387
+t1287523495
+s903
+
+N/var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch.gch
+t1287519129
+s15211536
+
+NToDo-Info.plist
+c000000004CBDFB930000000000000395
+t1287519123
+s917
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies309221983#309221983#0(0"0(0#1#0"8614562944#0"0#
+
+CCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/RootViewController.o /Users/brianstewart/Projects/ToDo/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309221983.296180
+e309221983.566410
+r1
+xCompileC
+xbuild/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/RootViewController.o
+x/Users/brianstewart/Projects/ToDo/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/brianstewart/Projects/ToDo/Classes/RootViewController.m309221983#309221983#0(0"0(0#0#62"/Users/brianstewart/Projects/ToDo/Classes/RootViewController.m8605326784#1835"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -include /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch -c /Users/brianstewart/Projects/ToDo/Classes/RootViewController.m -o /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDoAppDelegate.o /Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220899.770947
+e309220899.955474
+r1
+xCompileC
+xbuild/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDoAppDelegate.o
+x/Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m309220899#309220899#0(0"0(0#0#59"/Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m8619834272#1829"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -include /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch -c /Users/brianstewart/Projects/ToDo/Classes/ToDoAppDelegate.m -o /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDoAppDelegate.o0#
+
+CCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/Todo.o /Users/brianstewart/Projects/ToDo/Classes/Todo.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309221727.639432
+e309221727.778873
+r1
+xCompileC
+xbuild/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/Todo.o
+x/Users/brianstewart/Projects/ToDo/Classes/Todo.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@56"Compile /Users/brianstewart/Projects/ToDo/Classes/Todo.m309221727#309221727#0(0"0(0#0#48"/Users/brianstewart/Projects/ToDo/Classes/Todo.m8617998944#1807"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -include /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch -c /Users/brianstewart/Projects/ToDo/Classes/Todo.m -o /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/Todo.o0#
+
+CCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/TodoCell.o /Users/brianstewart/Projects/ToDo/Classes/TodoCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309220801.567618
+e309220801.756429
+r1
+xCompileC
+xbuild/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/TodoCell.o
+x/Users/brianstewart/Projects/ToDo/Classes/TodoCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@60"Compile /Users/brianstewart/Projects/ToDo/Classes/TodoCell.m309220801#309220801#0(0"0(0#0#52"/Users/brianstewart/Projects/ToDo/Classes/TodoCell.m8613777056#1815"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -include /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch -c /Users/brianstewart/Projects/ToDo/Classes/TodoCell.m -o /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/TodoCell.o0#
+
+CCompileC build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/main.o /Users/brianstewart/Projects/ToDo/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s309211929.748322
+e309211929.902231
+r1
+xCompileC
+xbuild/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/main.o
+x/Users/brianstewart/Projects/ToDo/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/brianstewart/Projects/ToDo/main.m309211929#309211929#0(0"0(0#0#40"/Users/brianstewart/Projects/ToDo/main.m8609527936#1799"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -include /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch -c /Users/brianstewart/Projects/ToDo/main.m -o /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/brianstewart/Projects/ToDo/MainWindow.xib
+s309211924.090806
+e309211927.408886
+r1
+xCompileXIB
+x/Users/brianstewart/Projects/ToDo/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib309211924#309211927#0(0"0(0#0#48"/Users/brianstewart/Projects/ToDo/MainWindow.xib8609048832#552"    cd /Users/brianstewart/Projects/ToDo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/MainWindow.nib /Users/brianstewart/Projects/ToDo/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /Users/brianstewart/Projects/ToDo/RootViewController.xib
+s309211924.102092
+e309211927.409096
+r1
+xCompileXIB
+x/Users/brianstewart/Projects/ToDo/RootViewController.xib
+lSLF07#2@33"CompileXIB RootViewController.xib309211924#309211927#0(0"0(0#0#56"/Users/brianstewart/Projects/ToDo/RootViewController.xib8608983008#568"    cd /Users/brianstewart/Projects/ToDo    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/RootViewController.nib /Users/brianstewart/Projects/ToDo/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ToDo.app/green.png green.png
+s309217264.250494
+e309217264.280255
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ToDo.app/green.png
+xgreen.png
+lSLF07#2@14"Copy green.png309217264#309217264#0(0"0(0#0#43"/Users/brianstewart/Projects/ToDo/green.png8615937824#435"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/brianstewart/Projects/ToDo/green.png /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+
+CCpResource build/Debug-iphonesimulator/ToDo.app/icon.jpg icon.jpg
+s309211927.409179
+e309211927.500696
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ToDo.app/icon.jpg
+xicon.jpg
+lSLF07#2@13"Copy icon.jpg309211927#309211927#0(0"0(0#0#42"/Users/brianstewart/Projects/ToDo/icon.jpg8606292800#434"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/brianstewart/Projects/ToDo/icon.jpg /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+
+CCpResource build/Debug-iphonesimulator/ToDo.app/red.png red.png
+s309217264.267111
+e309217264.289382
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ToDo.app/red.png
+xred.png
+lSLF07#2@12"Copy red.png309217264#309217264#0(0"0(0#0#41"/Users/brianstewart/Projects/ToDo/red.png8615753536#433"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/brianstewart/Projects/ToDo/red.png /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+
+CCpResource build/Debug-iphonesimulator/ToDo.app/todo.sqlite todo.sqlite
+s309212383.777737
+e309212383.797723
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ToDo.app/todo.sqlite
+xtodo.sqlite
+lSLF07#2@16"Copy todo.sqlite309212383#309212383#0(0"0(0#0#45"/Users/brianstewart/Projects/ToDo/todo.sqlite8609433536#437"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/brianstewart/Projects/ToDo/todo.sqlite /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+
+CCpResource build/Debug-iphonesimulator/ToDo.app/yellow.png yellow.png
+s309217264.248365
+e309217264.280123
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ToDo.app/yellow.png
+xyellow.png
+lSLF07#2@15"Copy yellow.png309217264#309217264#0(0"0(0#0#44"/Users/brianstewart/Projects/ToDo/yellow.png8616089504#436"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/brianstewart/Projects/ToDo/yellow.png /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+
+CGenerateDSYMFile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app.dSYM /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo
+s309221983.597010
+e309221983.617626
+r1
+xGenerateDSYMFile
+x/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app.dSYM
+x/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo
+lSLF07#2@100"GenerateDSYMFile build/Debug-iphonesimulator/ToDo.app.dSYM build/Debug-iphonesimulator/ToDo.app/ToDo309221983#309221983#0(0"0(0#0#75"/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo8619437376#359"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo -o /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app.dSYM0#
+
+CLd /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo normal i386
+s309221983.566505
+e309221983.596904
+r1
+xLd
+x/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo
+xnormal
+xi386
+lSLF07#2@80"Link /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo309221983#309221983#0(0"0(0#0#0"8619810432#872"    cd /Users/brianstewart/Projects/ToDo    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -filelist /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/Objects-normal/i386/ToDo.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -lsqlite3.0 -o /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/ToDo0#
+
+CProcessInfoPlistFile /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/Info.plist ToDo-Info.plist
+s309211924.025883
+e309211924.090699
+r1
+xProcessInfoPlistFile
+x/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/Info.plist
+xToDo-Info.plist
+lSLF07#2@23"Process ToDo-Info.plist309211924#309211924#0(0"0(0#0#49"/Users/brianstewart/Projects/ToDo/ToDo-Info.plist30681223440564324#455"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ToDo-Info.plist -genpkginfo /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app/Info.plist0#
+
+CProcessPCH /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch.gch ToDo_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s309211927.500866
+e309211929.748024
+r1
+xProcessPCH
+x/var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch.gch
+xToDo_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Precompile ToDo_Prefix.pch309211927#309211929#0(0"0(0#0#49"/Users/brianstewart/Projects/ToDo/ToDo_Prefix.pch8604475872#1699"    cd /Users/brianstewart/Projects/ToDo    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-generated-files.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-own-target-headers.hmap -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-all-target-headers.hmap -iquote /Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/ToDo-project-headers.hmap -F/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator -I/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/include -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources/i386 -I/Users/brianstewart/Projects/ToDo/build/ToDo.build/Debug-iphonesimulator/ToDo.build/DerivedSources -c /Users/brianstewart/Projects/ToDo/ToDo_Prefix.pch -o /var/folders/t1/t1qf3pu4F7mQWyrG30u0WE+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ToDo_Prefix-cifolfxzsusjmkfxtkfgxtcvpnzn/ToDo_Prefix.pch.gch0#
+
+CTouch /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app
+s309221983.617725
+e309221983.620325
+r1
+xTouch
+x/Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app
+lSLF07#2@76"Touch /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app309221983#309221983#0(0"0(0#0#0"8619376864#265"    cd /Users/brianstewart/Projects/ToDo    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/brianstewart/Projects/ToDo/build/Debug-iphonesimulator/ToDo.app0#
+

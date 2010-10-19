@@ -7,7 +7,9 @@
 //
 
 #import "RootViewController.h"
-
+#import "ToDoAppDelegate.h"
+#import "Todo.h"
+#import "TodoCell.h"
 
 @implementation RootViewController
 
@@ -65,7 +67,8 @@
 
 // Customize the number of rows in the table view.
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 0;
+	ToDoAppDelegate *appDelegate = (ToDoAppDelegate *)[[UIApplication sharedApplication] delegate];
+    return appDelegate.todos.count;
 }
 
 
@@ -74,14 +77,73 @@
     
     static NSString *CellIdentifier = @"Cell";
     
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
-    if (cell == nil) {
-        cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier] autorelease];
-    }
-    
-	// Configure the cell.
-
-    return cell;
+	 TodoCell *cell = (TodoCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	 if (cell == nil) {
+	 cell = [[[TodoCell alloc] initWithFrame:CGRectZero] autorelease];
+	 }
+	 
+	 // Configure the cell.
+	 ToDoAppDelegate *appDelegate = (ToDoAppDelegate *)[[UIApplication sharedApplication] delegate];
+	 Todo *td = [appDelegate.todos objectAtIndex:indexPath.row];
+	 
+	 [cell setTodo:td];
+	
+	return cell;
+	
+	// Created two ways to show the database
+	
+	// Note: when using this one deselect the cell in the didselectrowatindexpath method
+	// Loads the UITableViewCell class
+    /*
+	 UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	 if (cell == nil) {
+	 cell = [[[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:CellIdentifier] autorelease];
+	 }
+	 
+	 ToDoAppDelegate *appDelegate = (ToDoAppDelegate *)[[UIApplication sharedApplication] delegate];
+	 Todo *td = [appDelegate.todos objectAtIndex:indexPath.row];
+	 
+	 UIImage *priorityImage;
+	 NSString *priorityText;
+	 switch (td.priority) {
+	 case 1:
+	 priorityText = @"High";
+	 priorityImage = [UIImage imageNamed:@"red.png"];
+	 break;
+	 case 2:
+	 priorityText = @"Medium";
+	 priorityImage = [UIImage imageNamed:@"yellow.png"];
+	 break;
+	 case 3:
+	 priorityText = @"Low";
+	 priorityImage = [UIImage imageNamed:@"green.png"];
+	 break;
+	 default:
+	 priorityText = @"High";
+	 priorityImage = [UIImage imageNamed:@"red.png"];
+	 break;
+	 }
+	 
+	 // Configure the cell.
+	 cell.textLabel.text = td.todoText;
+	 cell.detailTextLabel.text = priorityText;
+	 cell.imageView.image = priorityImage;
+	 */
+	
+	// Loads the TodoCell class instead
+	/*
+	 TodoCell *cell = (TodoCell *)[tableView dequeueReusableCellWithIdentifier:CellIdentifier];
+	 if (cell == nil) {
+	 cell = [[[TodoCell alloc] initWithFrame:CGRectZero] autorelease];
+	 }
+	 
+	 // Configure the cell.
+	 ToDoAppDelegate *appDelegate = (ToDoAppDelegate *)[[UIApplication sharedApplication] delegate];
+	 Todo *td = [appDelegate.todos objectAtIndex:indexPath.row];
+	 
+	 [cell setTodo:td];
+	 */
+	
 }
 
 
@@ -129,14 +191,8 @@
 #pragma mark Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    
-	/*
-	 <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-	 [self.navigationController pushViewController:detailViewController animated:YES];
-	 [detailViewController release];
-	 */
+	
+	//[tableView deselectRowAtIndexPath:indexPath animated:YES];
 }
 
 

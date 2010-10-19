@@ -15,6 +15,14 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		C8F9E342126E32D9001F6647 /* icon.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C8F9E341126E32D9001F6647 /* icon.jpg */; };
+		C8F9E355126E3491001F6647 /* todo.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = C8F9E354126E3491001F6647 /* todo.sqlite */; };
+		C8F9E358126E34D1001F6647 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F9E357126E34D1001F6647 /* libsqlite3.0.dylib */; };
+		C8F9E362126E353E001F6647 /* Todo.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F9E361126E353E001F6647 /* Todo.m */; };
+		C8F9E3D6126E4533001F6647 /* yellow.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F9E3D3126E4533001F6647 /* yellow.png */; };
+		C8F9E3D7126E4533001F6647 /* green.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F9E3D4126E4533001F6647 /* green.png */; };
+		C8F9E3D8126E4533001F6647 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = C8F9E3D5126E4533001F6647 /* red.png */; };
+		C8F9E3DB126E455D001F6647 /* TodoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F9E3DA126E455D001F6647 /* TodoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +39,16 @@
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ToDo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ToDo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		C8F9E341126E32D9001F6647 /* icon.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = icon.jpg; sourceTree = "<group>"; };
+		C8F9E354126E3491001F6647 /* todo.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = todo.sqlite; sourceTree = "<group>"; };
+		C8F9E357126E34D1001F6647 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		C8F9E360126E353E001F6647 /* Todo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Todo.h; sourceTree = "<group>"; };
+		C8F9E361126E353E001F6647 /* Todo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Todo.m; sourceTree = "<group>"; };
+		C8F9E3D3126E4533001F6647 /* yellow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yellow.png; sourceTree = "<group>"; };
+		C8F9E3D4126E4533001F6647 /* green.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green.png; sourceTree = "<group>"; };
+		C8F9E3D5126E4533001F6647 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = red.png; sourceTree = "<group>"; };
+		C8F9E3D9126E455D001F6647 /* TodoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodoCell.h; sourceTree = "<group>"; };
+		C8F9E3DA126E455D001F6647 /* TodoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodoCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */,
+				C8F9E358126E34D1001F6647 /* libsqlite3.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +69,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C8F9E360126E353E001F6647 /* Todo.h */,
+				C8F9E361126E353E001F6647 /* Todo.m */,
+				C8F9E3D9126E455D001F6647 /* TodoCell.h */,
+				C8F9E3DA126E455D001F6647 /* TodoCell.m */,
 				28C286DF0D94DF7D0034E888 /* RootViewController.h */,
 				28C286E00D94DF7D0034E888 /* RootViewController.m */,
 				1D3623240D0F684500981E51 /* ToDoAppDelegate.h */,
@@ -90,6 +113,11 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C8F9E3D5126E4533001F6647 /* red.png */,
+				C8F9E3D3126E4533001F6647 /* yellow.png */,
+				C8F9E3D4126E4533001F6647 /* green.png */,
+				C8F9E354126E3491001F6647 /* todo.sqlite */,
+				C8F9E341126E32D9001F6647 /* icon.jpg */,
 				28F335F01007B36200424DE2 /* RootViewController.xib */,
 				28AD735F0D9D9599002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* ToDo-Info.plist */,
@@ -103,6 +131,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */,
+				C8F9E357126E34D1001F6647 /* libsqlite3.0.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -159,6 +188,11 @@
 			files = (
 				28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */,
 				28F335F11007B36200424DE2 /* RootViewController.xib in Resources */,
+				C8F9E342126E32D9001F6647 /* icon.jpg in Resources */,
+				C8F9E355126E3491001F6647 /* todo.sqlite in Resources */,
+				C8F9E3D6126E4533001F6647 /* yellow.png in Resources */,
+				C8F9E3D7126E4533001F6647 /* green.png in Resources */,
+				C8F9E3D8126E4533001F6647 /* red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,6 +206,8 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ToDoAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
+				C8F9E362126E353E001F6647 /* Todo.m in Sources */,
+				C8F9E3DB126E455D001F6647 /* TodoCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,6 +225,7 @@
 				GCC_PREFIX_HEADER = ToDo_Prefix.pch;
 				INFOPLIST_FILE = "ToDo-Info.plist";
 				PRODUCT_NAME = ToDo;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
@@ -214,7 +251,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};

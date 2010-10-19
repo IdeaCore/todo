@@ -1,0 +1,63 @@
+TToDo
+v7
+r1
+
+N/Users/brianstewart/Projects/ToDo/MainWindow.xib
+c000000004CBCDE240000000000005FE8
+t1287446052
+s24552
+
+N/Users/brianstewart/Projects/ToDo/RootViewController.xib
+c000000004CBCDE24000000000000444F
+t1287446052
+s17487
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/Info.plist
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/Resources/MainWindow.nib
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/Resources/RootViewController.nib
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/Resources/icon.jpg
+t2
+s0
+
+N/Users/brianstewart/Projects/ToDo/icon.jpg
+c000000004CBDFB4B00000000000019AB
+t1287519051
+s6571
+
+NToDo-Info.plist
+c000000004CBCDE24000000000000038D
+t1287446052
+s909
+
+CCompileXIB /Users/brianstewart/Projects/ToDo/MainWindow.xib
+r0
+
+CCompileXIB /Users/brianstewart/Projects/ToDo/RootViewController.xib
+r0
+
+CCpResource build/Debug/ToDo.app/Contents/Resources/icon.jpg icon.jpg
+r0
+
+CProcessInfoPlistFile /Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app/Contents/Info.plist ToDo-Info.plist
+r0
+
+CTouch /Users/brianstewart/Projects/ToDo/build/Debug/ToDo.app
+r0
+
