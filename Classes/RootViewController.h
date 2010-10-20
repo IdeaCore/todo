@@ -8,11 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class TodoViewController;
+
 @class ToDoAppDelegate;
 @class Todo;
 @class TodoCell;
 
 @interface RootViewController : UITableViewController {
+	
+	TodoViewController *todoView;
 }
+
+@property (nonatomic, retain) TodoViewController *todoView;
 
 @end

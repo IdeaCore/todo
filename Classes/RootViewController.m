@@ -7,30 +7,29 @@
 //
 
 #import "RootViewController.h"
+#import "TodoViewController.h"
 #import "ToDoAppDelegate.h"
 #import "Todo.h"
 #import "TodoCell.h"
 
 @implementation RootViewController
 
+@synthesize todoView;
 
 #pragma mark -
 #pragma mark View lifecycle
 
-/*
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+	
+	self.title = @"Todo items";
 }
-*/
 
-/*
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
+	[self.tableView reloadData];
 }
-*/
+
 /*
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
@@ -193,6 +192,47 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	
 	//[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	
+	ToDoAppDelegate *appDelegate = (ToDoAppDelegate *)[[UIApplication sharedApplication] delegate];
+	Todo *td = (Todo *)[appDelegate.todos objectAtIndex:indexPath.row];
+	
+	if (self.todoView == nil) {
+		TodoViewController *viewControlelr = [[TodoViewController alloc] initWithNibName:@"TodoViewController"
+																				  bundle:[NSBundle mainBundle]];
+		self.todoView = viewControlelr;
+		[viewControlelr release];
+	}
+	
+	[self.navigationController pushViewController:self.todoView animated:YES];
+	
+	self.todoView.todo = td;
+	self.todoView.title = td.todoText;
+	[self.todoView.todoText setText:td.todoText];
+	
+	NSInteger priority = td.priority - 1;
+	if (priority > 2 || priority < 0) {
+		priority = 1;
+	}
+	priority = 2 - priority;
+	
+	[self.todoView.todoPriority setSelectedSegmentIndex:priority];
+	
+	NSString *buttonTitle;
+	NSString *statusTitle;
+	
+	if (td.status == 1) {
+		buttonTitle = @"Mark as in progress";
+		statusTitle = @"Complete";
+	} else {
+		buttonTitle = @"Mark as complete";
+		statusTitle = @"In progress";
+	}
+	
+	[self.todoView.todoButton setTitle:buttonTitle forState:UIControlStateNormal];
+	[self.todoView.todoButton setTitle:buttonTitle forState:UIControlStateHighlighted];
+	[self.todoView.todoStatus setText:statusTitle];
+	
+	
 }
 
 
@@ -213,6 +253,7 @@
 
 
 - (void)dealloc {
+	[todoView release];
     [super dealloc];
 }
 
